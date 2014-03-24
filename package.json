@@ -1,0 +1,6 @@
+{
+  "name": "lego-colors",
+  "version": "0.0.1",
+  "description": "RGB colors of LEGO™ bricks.",
+  "text": "node test.js"
+}
