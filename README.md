@@ -13,7 +13,7 @@ Get a brick color by its LEGO™ number:
 ```js
 var legoColors = require('legoColors');
 
-var rust = legoColors.getByLEGONumber(216);
+var rust = legoColors.getByLegoNumber(216);
 
 // Rust
 console.log(rust.name);
