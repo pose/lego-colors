@@ -141,6 +141,10 @@
     return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
   }
 
+  function rgbAsNumber(r, g, b) {
+    return r * 16 * 16 * 16 * 16 + g * 16 * 16 + b;
+  }
+
   function convertRowToObj(row) {
     // ['LEGO No.', 'Color', 'C', 'M', 'Y', 'K', 'R', 'G', 'B', 'Pantone'],
     var rgb = Object.freeze([parseInt(row[6], 10), parseInt(row[7], 10), parseInt(row[8], 10)]);
@@ -150,6 +154,7 @@
       cmyk: Object.freeze([parseInt(row[2], 10), parseInt(row[3], 10), parseInt(row[4], 10), parseInt(row[5], 10)]),
       rgb: rgb,
       rgbHex: rgbToHex.apply(null, rgb),
+      rgbHexAsNumber: rgbAsNumber.apply(null, rgb),
       pantone: row[9]
     });
   }
