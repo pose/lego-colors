@@ -1,5 +1,5 @@
 # LEGO™ Colors
-LEGO™ bricks colors in Node.js.
+LEGO™ bricks color Node.js module.
 
 ## Install
 
