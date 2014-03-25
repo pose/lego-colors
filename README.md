@@ -1,6 +1,8 @@
 # LEGO™ Colors
 LEGO™ bricks color Node.js module.
 
+[![Build Status](https://travis-ci.org/pose/lego-colors.png?branch=master)](https://travis-ci.org/pose/lego-colors)
+
 ## Install
 
 ```sh
