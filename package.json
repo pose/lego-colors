@@ -2,5 +2,9 @@
   "name": "lego-colors",
   "version": "0.0.2",
   "description": "Colors of LEGO™ bricks.",
-  "text": "node test.js"
+  "test": "node test.js",
+  "repository": {
+   "type": "git",
+    "url": "https://github.com/pose/lego-colors.git"
+  }
 }
